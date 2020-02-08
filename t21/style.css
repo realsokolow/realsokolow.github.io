@@ -1,0 +1,46 @@
+﻿body{
+	margin: 0;
+	padding: 0;
+}
+main{
+	background-color: blue;
+	color: white;
+	
+}
+a:hover{
+	color: red;
+}
+input[type=email]:valid{
+	background-color: green;
+}
+input[type=email]:invalid{
+	background-color: red;
+}
+input:focus{
+	border: 2px solid red;
+}	
+	
+header{	
+	padding: 10px
+	background: linear-gradient(to right, white, blue);
+}
+a{
+	text-decoration: none;
+	margin-left: 10px
+	font-size: 20px
+	font-family: cursive;
+	color: #6e1212;
+}
+input[type=sumbit]{
+	background: linear-gradient(to right, red, yellow);
+	border: 2px solid red;
+}
+input{
+	margin: 5px 0;
+}
+
+
+
+
+
+	
